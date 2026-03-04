@@ -8,12 +8,12 @@
   </head>
 <body>
 
-    <!-- ===== HEADER / NAVIGATION ===== -->
+
     <header>
         <div class="container">
             <nav>
                 <div class="logo">
-                    <!-- TODO MARDI HTML : Changez le nom (remplacez par VOTRE NOM) -->
+                   
                     Mohamed Samassi
                 </div>
                 <ul class="nav-links">
@@ -28,15 +28,15 @@
         </div>
     </header>
 
-    <!-- ===== HERO SECTION ===== -->
+   
     <section class="hero">
         <div class="container">
             <h1>
-                <!-- TODO MARDI HTML : Changez ce titre (ex: "Je suis développeur web") -->
+
                 [Votre Titre Inspirant]
             </h1>
             <p>
-                <!-- TODO MARDI HTML : Changez cette description (parlez de VOUS) -->
+                
                 Je suis Étudiant en bachelor Data Science et Intelligence Artificielle à HETIC, passionné par l'analyse de données et l'Intelligence Artificielle.
             </p>
             <a href="#projects" class="cta-button">Découvrir mes projets</a>
@@ -45,13 +45,13 @@
                     </p>
                 </div>
             </div>
-            <!-- ===== ABOUT SECTION ===== -->
+           
 <section class="about" id="about">
     <div class="container">
         <h2 class="section-title">À propos de moi</h2>
         
         <div class="about-content">
-            <!-- Tu peux garder l'image placeholder ou mettre ta vraie photo plus tard -->
+            
             <div class="about-image">
                 <img src="https://via.placeholder.com/400x400" alt="Samassi Mohamed Junior">
             </div>
@@ -67,7 +67,7 @@
     </div>
 </section>
 
-   <!-- ===== SKILLS SECTION ===== -->
+   
 <section class="skills" id="skills">
     <div class="container">
         <h2 class="section-title">Mes Compétences</h2>
@@ -105,7 +105,6 @@
     </div>
 </section>
 
-    <!-- ===== PROJECTS SECTION ===== -->
 <section class="projects" id="projects">
     <div class="container">
         <h2 class="section-title">Mes Projets</h2>
@@ -127,7 +126,7 @@
         </div>
     </div>
 </section>
-    <!-- ===== CONTACT SECTION ===== -->
+    
 <section class="contact" id="contact">
     <div class="container">
         <h2 class="section-title">Me Contacter</h2>
@@ -145,7 +144,7 @@
     </div>
 </section>
 
-    <!-- ===== FOOTER ===== -->
+   
     <footer>
         <div class="container">
             <div class="footer-content">
@@ -173,13 +172,13 @@
     const btn = document.getElementById('theme-btn');
     const body = document.body;
 
-    // Charge le mode sauvegardé (si tu as déjà cliqué avant)
+    
     if (localStorage.getItem('theme') === 'dark') {
         body.classList.add('dark');
         btn.textContent = 'Light Mode';
     }
 
-    // Au clic, on switch
+   
     btn.addEventListener('click', () => {
         body.classList.toggle('dark');
         
